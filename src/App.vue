@@ -3,7 +3,7 @@
     <nav>
       <a id="link1" @click="change1()">Главная страница</a>
       <a id="link2" @click="change2()">Стр 2</a>
-      <a id="link3" @click="change3()">Стр 3</a>
+      <a id="link3" @click="change3()">Товары</a>
       <a id="link4" @click="change4()">Оставить отзыв</a>
     </nav>
   </div>
@@ -114,9 +114,6 @@ p
   width: 800px;
   margin: 0 auto;
 }
-
-
-
 
 </style>
 

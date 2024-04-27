@@ -130,16 +130,6 @@ table, th, td{
   }
 }
 
-
-h1
-{
-  padding-left: 7%;
-  font-size: 34px;
-  text-transform: uppercase;
-  font-weight: 100;
-  line-height: 2;
-  color: #2c3e50;
-}
 </style>
 
 <script>
