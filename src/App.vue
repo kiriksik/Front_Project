@@ -2,7 +2,7 @@
   <div class="header">
     <nav>
       <a id="link1" @click="change1()">Главная страница</a>
-      <a id="link2" @click="change2()">О нас</a>
+      <a id="link2" @click="change2()">Сборка</a>
       <a id="link3" @click="change3()">Товары</a>
       <a id="link4" @click="change4()">Оставить отзыв</a>
     </nav>
