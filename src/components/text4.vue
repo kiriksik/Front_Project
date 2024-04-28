@@ -18,9 +18,14 @@
   <div class="alert">{{ this.alert }}</div>
 
   <div class="content">
-    <h1>Оставленные отзывы:</h1>
+    <h1 class="hTable">Оставленные отзывы:</h1>
 
     <table>
+      <colgroup>
+        <col style="width: 33%" />
+        <col style="width: 33%" />
+        <col style="width: 33%" />
+      </colgroup>
       <tr v-for="report in reports">
         <th>{{ report.name }}</th>
         <th>{{ report.age }}</th>
@@ -31,15 +36,29 @@
 </template>
 
 <style>
+.hTable {
+  padding-top: 20px;
+  text-align: left;
+  padding-left: 10%;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 2;
+  color: #2c3e50;
+
+}
+table {
+  width: 75%;
+}
 
 table, th, td{
+  padding: 10px;
   border-style:dashed;
   margin-left: 5%;
   margin-right: 25%;
-  width: 70%;
   text-align:center;
   border-color: gray;
   border-collapse: collapse;
+  border-width: 2px;
 }
 
 
